@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal AI Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Animal AI Recognition</h1>
+    </header>
+
+    <section class="upload-section">
+        <h2>Upload an Image</h2>
+        <input type="file" id="imageInput" accept="image/*">
+        <button onclick="analyzeImage()">Analyze</button>
+    </section>
+
+    <section class="results-section">
+        <h2>Results</h2>
+        <div id="output">
+            <img id="uploadedImage" alt="Uploaded Animal" style="display:none;">
+            <p id="aiResult">Your results will appear here...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created with ♥ by [Your Name]</p>
+        <a href="https://github.com/yourgithubprofile">View on GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
